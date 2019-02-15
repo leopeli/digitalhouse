@@ -3,8 +3,12 @@ body {
 }
 
 header {
-  border-bottom: 1px solid #000;
+  box-shadow: 0 10px 10px #0000002d;
   padding: 10px;
+}
+
+header img {
+  width: 30px;
 }
 
 header div,
@@ -29,3 +33,24 @@ nav ul li a{
   margin-right: 20px;
 }
 
+section {
+  text-align: center;
+}
+
+section button {
+  background-color: #5f4a90;
+  border: 1px solid #5f4a90;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+  text-transform: uppercase;
+  transition: all ease .5s;
+}
+
+section button:hover {
+  background-color: #fff;
+  color:#5f4a90;
+  transition: all ease .5s;
+}
