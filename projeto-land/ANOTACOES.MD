@@ -4,7 +4,7 @@
 
 **Conteúdo da home:**
   Título principal: The Most Beautifuls Landscapes
-  Parágrafo: NEW ORLEANS FOREST
+  Parágrafo: New Orleans Forest
   Botão: CHECK IT OUT
   Botões dos produtos: See more
 

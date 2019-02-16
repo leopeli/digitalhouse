@@ -2,8 +2,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-  box-shadow: 0 10px 10px #0000002d;
+.header {
+  box-shadow: 0 0 8px 0 #676565;
+  width: 100%;
   padding: 10px;
 }
 
@@ -11,13 +12,13 @@ header img {
   width: 30px;
 }
 
-header div,
-header nav,
-nav ul li {
+.header__logo,
+.header__menu,
+.header__menu--listItem {
   display: inline-block;
 }
 
-header nav {
+.header__menu {
   float: right;
   margin: 0;
 }
@@ -28,7 +29,7 @@ nav ul {
 }
 
 nav ul li a{
-  color: inherit;
+  color: #000;
   text-decoration: none;
   margin-right: 20px;
 }
@@ -40,11 +41,11 @@ section {
 section button {
   background-color: #5f4a90;
   border: 1px solid #5f4a90;
-  border-radius: 50px;
   color: #fff;
+  border-radius: 50px;
   font-size: 14px;
   font-weight: bold;
-  padding: 10px;
+  padding: 10px 20px;
   text-transform: uppercase;
   transition: all ease .5s;
 }
@@ -53,4 +54,13 @@ section button:hover {
   background-color: #fff;
   color:#5f4a90;
   transition: all ease .5s;
+}
+
+.banner {
+  background-image: url('../src/img/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
 }
