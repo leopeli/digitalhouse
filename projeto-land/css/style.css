@@ -14,7 +14,7 @@ header img {
 
 .header__logo,
 .header__menu,
-.header__menu--listItem {
+.header__menu-list-item {
   display: inline-block;
 }
 
@@ -63,4 +63,11 @@ section button:hover {
   background-position: center;
   background-attachment: fixed;
   height: 100vh;
+}
+
+.banner div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, 50%, 0);
 }
