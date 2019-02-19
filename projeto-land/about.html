@@ -1,21 +1,63 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-  <link rel="stylesheet" href="./css/style.css" />
-  <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
 
-  <title>About</title>
-</head>
-<body>
-  <h1>About</h1>
-  <section>
-    <video controls>
-      <source src="./src/video/video-about.mp4" type="video/mp4" />
-    </video>
+    <title>Landseeker</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <img class="header__img" src="./src/img/logo/logo.png" alt="Logo" />
+        <span>Landseeker</span>
+      </div>
+      <nav class="header__menu">
+        <ul class="header__menu-list">
+          <li class="header__menu-list-item">
+            <a class="header__menu-link" target="_blank" href="#">Home</a>
+          </li>
+          <li class="header__menu-list-item">
+            <a
+              class="header__menu-link"
+              id="teste"
+              target="_blank"
+              href="./about.html"
+              >About</a
+            >
+          </li>
+          <li class="header__menu-list-item">
+            <a class="header__menu-link" target="_blank" href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="banner__title">
+      <h1>About</h1>
+    </div>
+    <section class="conteudo-principal">
+      <div class="video">
+        <video controls>
+          <source src="src/video/video-about.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="texto">
+        <h2>Our Story</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque autem maiores adipisci pariatur excepturi omnis sapiente explicabo libero obcaecati vitae, inventore deleniti eos, quis cum unde aliquam cumque! Laborum, officia.</p>
+      </div>
+      <div class="audio">
+        <audio controls>
+          <source src="src/audio/music-background.mp3" type="audio/mp3"/>
+        </audio>
+      </div>
+    </section>
+    <footer>
+      <span>Copyright &copy; Digital House</span>
+    </footer>
   </section>
 </body>
 </html>

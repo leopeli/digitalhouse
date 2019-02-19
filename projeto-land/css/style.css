@@ -8,7 +8,7 @@ body {
   padding: 10px;
 }
 
-header img {
+.header__img {
   width: 30px;
 }
 
@@ -34,10 +34,6 @@ nav ul li a{
   margin-right: 20px;
 }
 
-section {
-  text-align: center;
-}
-
 section button {
   background-color: #5f4a90;
   border: 1px solid #5f4a90;
@@ -57,17 +53,9 @@ section button:hover {
 }
 
 .banner {
-  background-image: url('../src/img/banner.jpg');
-  background-repeat: no-repeat;
+  background-image: url('../src/img/banner.jpg'), no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   height: 100vh;
-}
-
-.banner div {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate3d(-50%, 50%, 0);
 }
