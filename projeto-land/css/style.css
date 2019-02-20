@@ -1,3 +1,13 @@
+*::-moz-selection {
+  background-color: #5f4a90;
+  color: #fff;
+}
+
+*::selection {
+  background-color: #5f4a90;
+  color: #fff;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -53,9 +63,66 @@ section button:hover {
 }
 
 .banner {
-  background-image: url('../src/img/banner.jpg'), no-repeat;
+  background-image: url('../src/img/banner.jpg');
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   height: 100vh;
+}
+
+.titulo-banner {
+  background-image: url("../src/img/about-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  height: 40vh;
+  line-height: 40vh;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.titulo-banner h1{
+  font-size: 45px;
+}
+
+.conteudo-principal {
+  padding: 40px 20px;
+}
+
+.conteudo-principal .video-about {
+  width: 45%;
+  display: inline-block;
+  padding: 30px;
+}
+
+.conteudo-principal .video-about video{
+  width: 100%;
+}
+
+.conteudo-principal .texto {
+  width: 54%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 40px;
+}
+
+.audio-about {
+  background-color: #f1f3f4;
+  border-top: 1px solid #dcdcdc;
+  text-align: center;
+  padding: 10vh;
+}
+
+.audio-about p {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #5f4a90;
+  color: #fff;
+  text-align: center;
+  padding: 4vh;
+  font-size: 18px;
 }
