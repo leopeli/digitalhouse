@@ -10,7 +10,7 @@
 
     <title>Landseeker - Contact</title>
   </head>
-  <body>
+  <body class="contact-page">
     <header class="header">
       <div class="header__logo">
         <img class="header__img" src="./src/img/logo/logo.png" alt="Logo" />
@@ -39,10 +39,17 @@
       </nav>
     </header>
     <section class="conteudo-principal">
-      <form>
-        <label for="">Name</label>
-        <input type="text" name="name" required />
-        <button>send</button>
+      <form id="contact" class="form">
+        <h1>Contact Us!</h1> 
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name" required />
+        <label for="email">email</label>
+        <input type="email" id="email" name="email" required />
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mensagem" id="mensagem"></textarea>
+        <input type="checkbox" name="privacy" id="privacy" value="privacy" />
+        <label for="privacy">Don't post my name</label>
+        <button class="contact__button">Send</button>
       </form>
     </section>
     <footer>
