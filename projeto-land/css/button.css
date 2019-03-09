@@ -1,0 +1,53 @@
+.banner__button {
+  background-color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  color: #fff;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  transition: all ease .5s;
+}
+
+section button:hover {
+  background-color: #fff;
+  color:#000;
+  transition: all ease .5s;
+}
+
+.contact__button {
+	display: block;
+  background-color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  color: #fff;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-transform: uppercase;
+	transition: all ease .5s;
+	float: right;
+}
+
+.contact__button:hover {
+  background-color: #fff;
+  color:#000;
+  transition: all ease .5s;
+}
+
+.galeria-item .caixa-botao button{
+  background-color: #fff;
+  color: #000;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all ease-in-out .4s;
+}
+
+.galeria-item .caixa-botao button:hover {
+  background-color: var(--color-primary);
+  color: #fff;
+}
