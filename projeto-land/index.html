@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/button.css" />
-    <link rel="stylesheet" href="./css/header.css" />
-    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/base/reset.css" />
+    <link rel="stylesheet" href="./css/layouts/style.css" />
+    <link rel="stylesheet" href="./css/layouts/header.css" />
+    <link rel="stylesheet" href="./css/layouts/mobile.css" />
+    <link rel="stylesheet" href="./css/layouts/banners.css" />
+    <link rel="stylesheet" href="./css/modules/banner.css" />
+    <link rel="stylesheet" href="./css/modules/button.css" />
     <title>Landseeker</title>
   </head>
   <body>
@@ -45,10 +47,10 @@
       </label>
     </div>
     </header>
-    <section class="banner">
+    <section class="banner-full banner-home">
       <div class="banner__contain">
-        <h1 class="banner__title">The Most Beautifuls Landscapes</h1>
-        <p class="banner__text">New Orleans Forest</p>
+        <h1 class="banner-title">The Most Beautifuls Landscapes</h1>
+        <p class="banner-text">New Orleans Forest</p>
         <button class="banner__text banner__button" title="Clique para ver mais ">Check it out</button>
       </div>
     </section>
@@ -95,7 +97,8 @@
     <footer class="footer">
       <span class="footer__text">Copyright &copy; Digital House</span>
     </footer>
-
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

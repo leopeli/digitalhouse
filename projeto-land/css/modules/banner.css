@@ -1,0 +1,37 @@
+.banner-full.banner-home {
+  background: url('../../src/img/banner.jpg') no-repeat center top fixed;
+  background-size: cover;
+}
+
+.banner-full .banner__contain {
+  text-align: center;
+  margin-bottom: 110px;
+}
+
+.banner-text {
+  margin-bottom: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 20px 0;
+
+}
+
+.banner-about {
+  background-image: url("../../src/img/about-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  height: 40vh;
+  line-height: 40vh;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.banner-title{
+  font-size: 18px;
+  color: #fff;
+  font-weight: normal;
+}

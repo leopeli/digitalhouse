@@ -1,0 +1,11 @@
+nav.navbar {
+  background-color: darkorange; 
+}
+
+.navbar-brand, .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-brand, .navbar-nav>li>a:hover {
+  color: red;
+}

@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/button.css" />
-    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/base/reset.css" />
+    <link rel="stylesheet" href="./css/layouts/style.css" />
+    <link rel="stylesheet" href="./css/layouts/header.css" />
+    <link rel="stylesheet" href="./css/layouts/mobile.css" />
+    <link rel="stylesheet" href="./css/modules/banner.css" />
+    <link rel="stylesheet" href="./css/modules/button.css" />
 
     <title>Landseeker</title>
   </head>
@@ -21,33 +23,34 @@
       <nav class="header__menu">
         <ul class="header__menu-list">
           <li class="header__menu-list-item">
-            <a class="header__menu-link" target="_blank" href="#">Home</a>
+            <a class="header__menu-link" href="index.html">Home</a>
           </li>
           <li class="header__menu-list-item">
             <a
+              href="#"
               class="header__menu-link"
               id="teste"
-              target="_blank"
+            
               href="./about.html"
               >About</a
             >
           </li>
           <li class="header__menu-list-item">
-            <a class="header__menu-link" target="_blank" href="./contact.html">Contact</a>
+            <a class="header__menu-link" href="./contact.html">Contact</a>
           </li>
         </ul>
       </nav>
     </header>
-    <div class="titulo-banner">
+    <div class="banner-about">
       <h1>About</h1>
     </div>
-    <main class="conteudo-principal">
+    <main class="standart-contain">
       <div class="video-about">
-        <video controls poster="src/img/about-guy.png">
+        <video class="video" controls poster="src/img/about-guy.png">
           <source src="src/video/video-about.mp4" type="video/mp4" />
         </video>
       </div>
-      <div class="texto">
+      <div class="standart-contain-text">
         <h2>Our Story</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus veniam quam vel culpa ipsa ut autem! Officia, molestiae magni sint cumque accusantium soluta? Saepe ut voluptatibus enim et non dignissimos reprehenderit earum amet, pariatur maxime quia perspiciatis necessitatibus veritatis facilis. Quae at vero unde dolorum officia accusamus asperiores voluptates ipsum cupiditate sunt culpa quam officiis vel, amet, suscipit sint voluptas tempora deleniti neque sapiente incidunt modi. Repellat quibusdam facere officia nesciunt id alias ad saepe tenetur reprehenderit nobis adipisci non quaerat mollitia libero distinctio sunt, hic culpa totam perspiciatis laudantium. Repellendus nostrum nam saepe!</p>
         
@@ -60,8 +63,8 @@
       </div>
     </main>
   </section>
-  <footer class=".footer">
-    <span>Copyright &copy; Digital House</span>
+  <footer class="footer">
+    <span class="footer__text">Copyright &copy; Digital House</span>
   </footer>
 </body>
 </html>
