@@ -24,3 +24,4 @@ zoom.forEach((zoom) => {
 menuMobile.onclick = function() {
   menuPrincipal.classList.toggle('visible') 
 }
+
